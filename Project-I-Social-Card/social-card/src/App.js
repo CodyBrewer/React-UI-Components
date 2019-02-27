@@ -5,11 +5,11 @@ import CardContainer from "./components/CardComponents/CardContainer";
 import Footer from "./components/FooterComponents/Footer";
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
       <HeaderContainer />
       <CardContainer />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 
