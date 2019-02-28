@@ -3,9 +3,9 @@ import './Footer.css';
 
 function Footer () {
    return(
-       <React.Fragment>
+       <footer>
            <p>the footer is here</p>
-       </React.Fragment>
+       </footer>
    )
 }
 
