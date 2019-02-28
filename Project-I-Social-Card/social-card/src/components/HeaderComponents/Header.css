@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+.header-title{
+    display:flex; 
+    flex-flow: column wrap;
+    width: 100%;
+    border: 1px solid red;
+}
+.title-container{
+    display: flex;
+    border: 1px solid blue;
+}
+h1{
+    font-size: 20px;
+    margin: 10px 5px;
+}
+h2{
+    color: #7c8c99;
+}
+.lambda-logo{
+    height: 40px;
+}
+.header-content{
+    width: 70%;
+    font-size: 0.9rem;
+    padding: 0% 7%;
+    border: 1px solid green;
+}

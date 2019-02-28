@@ -1,11 +1,13 @@
 import React from 'react';
 import './Header.css';
-
+import ImageThumbnail from './ImageThumbnail';
+import HeaderTitle from './HeaderTitle';
 function HeaderContainer() {
     return (
-    <React.Fragment>  
-        <p>the header is right here</p> 
-    </React.Fragment>
+    <div className="header-container">  
+        <HeaderTitle />
+    </div>
+
     )
 }
 
