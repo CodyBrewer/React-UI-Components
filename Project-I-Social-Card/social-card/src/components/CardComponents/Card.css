@@ -1,8 +1,7 @@
 /* All styles for your Card Components live here */
 
 .card-container{
-    border: 1px solid red;
-    text-decoration: none;
+   text-decoration: none;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -19,6 +18,13 @@
 .card-content{
     font-size: 0.9rem;
     margin: 0 auto;
+    border: 1px solid #e3eaee;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 90%;
+}
+.content-container{
+    margin: 2%;
 }
 h3{
     font-weight: bold;

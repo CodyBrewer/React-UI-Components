@@ -2,17 +2,14 @@
 .header-container{
     width: 90%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .header-title{
     display:flex; 
     flex-flow: column wrap;
     width: 100%;
-    border: 1px solid green;
 }
 .title-container{
     display: flex;
-    border: 1px solid blue;
 }
 h1{
     font-size: 20px;
@@ -27,7 +24,6 @@ h2{
 .header-content{
     width: 90%;
     font-size: 0.9rem;
-    border: 1px solid purple;
     align-self: center;
     line-height: 1.2;
 }

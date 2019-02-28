@@ -1,6 +1,5 @@
 footer{
     margin: 0 auto;
-    border: 1px solid yellow;
     width: 90%;
     display: flex;
 }
@@ -10,7 +9,4 @@ svg{
 }
 footer p{
     color: #7c8c99;
-}
-.retweet svg{
-    margin: 
 }
