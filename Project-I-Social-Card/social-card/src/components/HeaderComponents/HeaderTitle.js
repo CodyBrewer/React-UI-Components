@@ -6,8 +6,10 @@ function HeaderTitle(){
     return (
         <div className="header-title">
             <div className="title-container">
-                <ImageThumbnail />
-                <h1>Lambda School</h1>
+                <div className ="user-container">
+                    <ImageThumbnail />
+                    <h1>Lambda School</h1>
+                </div>
                 <h2>@LambdaSchool • 27 Feb</h2>
            </div>
            <HeaderContent />
