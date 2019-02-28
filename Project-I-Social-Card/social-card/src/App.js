@@ -5,7 +5,7 @@ import Footer from './components/FooterComponents/Footer';
 import CardContainer from './components/CardComponents/CardContainer';
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <HeaderContainer />
       <CardContainer />
       <Footer />
