@@ -1,0 +1,12 @@
+footer{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+}
+svg{
+    color: #7c8c99;
+    margin: 2% 5%;
+}
+footer p{
+    color: #7c8c99;
+}
