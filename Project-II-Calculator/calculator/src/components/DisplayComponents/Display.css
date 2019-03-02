@@ -1,0 +1,15 @@
+.display-container{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 100px;
+}
+
+.total{
+    background-color: #1c1c1c;
+    font-size: 5rem;
+    text-align: right;
+    line-height: 100px;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: 100;
+}
