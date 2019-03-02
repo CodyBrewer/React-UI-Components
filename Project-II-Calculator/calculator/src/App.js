@@ -5,7 +5,8 @@ import ActionButton from './components/ButtonComponents/ActionButton';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 
-const App = () => {
+class App extends React.Component {
+  render(){
   return (
     <div>
       <div className="calculator-container">
@@ -37,6 +38,7 @@ const App = () => {
       </div>
     </div>
   );
+  }   
 };
 
 export default App;
