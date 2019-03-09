@@ -1,0 +1,30 @@
+.number-button-container{
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px;
+   grid-template-rows: 100px 100px 100px; 
+}
+.num-button{
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+.clear-button-container{
+    display: grid;
+    grid-template-columns: 300px 100px;
+    grid-template-rows: 100px;
+}
+.clear-button{
+    background-color: #ffffff;
+    font-size:2.4rem;
+}
+.action-button{
+    background-color:#a6001a;
+    font-size: 3.6rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+.zero-button-container{
+    display: grid; 
+    grid-template-columns:  300px 100px;
+    grid-template-rows: 100px;
+}
